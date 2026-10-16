@@ -15,9 +15,8 @@ export default defineConfig({
     screenshot: 'only-on-failure',
     trace: 'retain-on-failure',
     video: 'retain-on-failure',
-    headless: false,            // เปิดเบราว์เซอร์ให้เห็นโดยไม่ต้องพิมพ์ --headed
     launchOptions: {
-      slowMo: 500,              // หน่วง 0.5 วินาทีต่อ 1 action
+    slowMo: 500,
     },
   },
   projects: [
